@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Romain Jourde</Authors>
+    <Company>Rug.OSC</Company>
+    <Description>Fork of Rug.OSC to be use in .netstandard.</Description>
+    <RootNamespace>Rug.Osc</RootNamespace>
+    <PackageId>Rug.Osc.netstandard</PackageId>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+ 
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>Rug.Osc.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>
