@@ -12,7 +12,7 @@ Original source on https://bitbucket.org/rugcode/rug.osc/</Description>
     <PackageProjectUrl>https://github.com/dust63/RugOsc.netstandard</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
     <Product>StarDust.Rug.Osc.netstandard</Product>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>OSC RugOsc</PackageTags>
     <AssemblyName>StarDust.RugOsc.netstandard</AssemblyName>
