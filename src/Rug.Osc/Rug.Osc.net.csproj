@@ -15,6 +15,7 @@ Original source on https://bitbucket.org/rugcode/rug.osc/</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>OSC RugOsc</PackageTags>
+    <AssemblyName>StarDust.Rug.Osc.netstandard</AssemblyName>
   </PropertyGroup>
 
 
