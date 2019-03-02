@@ -4,10 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Romain Jourde</Authors>
     <Company>Rug.OSC</Company>
-    <Description>Fork of Rug.OSC to be use in .netstandard.</Description>
+    <Description>Fork of Rug.OSC migrate in .netstandard.
+Original source on https://bitbucket.org/rugcode/rug.osc/</Description>
     <RootNamespace>Rug.Osc</RootNamespace>
-    <PackageId>Rug.Osc.netstandard</PackageId>
+    <PackageId>StarDust.Rug.Osc.netstandard</PackageId>
     <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/dust63/RugOsc.netstandard</PackageProjectUrl>
+    <PackageLicenseUrl>https://bitbucket.org/rugcode/rug.osc/wiki/License</PackageLicenseUrl>
   </PropertyGroup>
 
  
