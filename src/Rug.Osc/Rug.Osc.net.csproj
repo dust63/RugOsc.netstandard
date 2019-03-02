@@ -10,10 +10,17 @@ Original source on https://bitbucket.org/rugcode/rug.osc/</Description>
     <PackageId>StarDust.Rug.Osc.netstandard</PackageId>
     <Version>1.0.0</Version>
     <PackageProjectUrl>https://github.com/dust63/RugOsc.netstandard</PackageProjectUrl>
-    <PackageLicenseUrl>https://bitbucket.org/rugcode/rug.osc/wiki/License</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <Product>StarDust.Rug.Osc.netstandard</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>OSC RugOsc</PackageTags>
   </PropertyGroup>
 
- 
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="LICENSE.md" />
+  </ItemGroup>
 
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
