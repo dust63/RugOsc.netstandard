@@ -194,7 +194,7 @@ namespace Rug.Osc
 		/// <param name="messageBufferSize">the number of messages that should be cached before messages get dropped</param>
 		/// <param name="maxPacketSize">the maximum packet size of any message</param>
 		public OscSender(IPAddress local, IPAddress remote, int port, int timeToLive, int messageBufferSize, int maxPacketSize)
-			: this(local, port, remote, port, timeToLive, messageBufferSize, maxPacketSize)
+			: this(local, 0, remote, port, timeToLive, messageBufferSize, maxPacketSize)
 		{
 
 		}
